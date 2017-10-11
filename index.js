@@ -15,8 +15,8 @@ app.on('ready', function() {
 
     console.log(__dirname);
 
-    mainWindow.loadUrl(url.format({
-        pathname: path.join(__dirname, 'index.html'),
+    mainWindow.loadURL(url.format({
+        pathname: path.join(__dirname, 'app', 'index.html'),
         protocol: 'file:',
         slashes: true
     }));
