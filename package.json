@@ -1,0 +1,14 @@
+{
+  "name": "s3uploader",
+  "version": "0.0.1",
+  "main": "index.js",
+  "description": "A simple desktop app to upload files to AWS S3",
+  "license": "Apache-2.0",
+  "repository":"https://github.com/UjuE/s3uploader",
+  "dependencies": {
+    "electron": "latest"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}
