@@ -6,10 +6,12 @@
   "license": "Apache-2.0",
   "repository": "https://github.com/UjuE/s3uploader",
   "dependencies": {
-    "app": "^0.1.0",
-    "electron": "latest"
+    "app": "latest",
+    "electron": "latest",
+    "electron-log": "^2.2.9",
+    "jquery": "^3.2.1"
   },
   "scripts": {
-    "start": "electron ."
+    "start": "electron  --enable-logging ."
   }
 }

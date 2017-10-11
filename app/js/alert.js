@@ -1,0 +1,1 @@
+// document.getElementsByTagName("body").addEventListener("click", alert("There was a click"));
